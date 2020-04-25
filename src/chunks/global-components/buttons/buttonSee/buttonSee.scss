@@ -1,0 +1,27 @@
+.btn-see {
+  min-height: 30px;
+  min-width: 200px;
+  color: var(--main-bright);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--ff);
+  background: var(--acc-dark);
+  padding: 10px 90px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px; 
+  border: 1px solid var( --main-dark);
+  text-decoration: none;
+}
+.btn-wrap{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.btn-see:hover{
+  background-color:var( --main-bright);
+  color: var(--main-dark);
+  border: 1px solid var( --main-dark);
+  transition:  var(--def-an);
+}

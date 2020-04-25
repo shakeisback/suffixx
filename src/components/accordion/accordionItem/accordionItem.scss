@@ -1,0 +1,36 @@
+.item {
+  margin: 10px 0;
+}
+
+.btn {
+  width: 100%;
+  border: 4px solid var(--main-dark);
+  padding: 20px 40px;
+  text-align: left;
+  background: none;
+  transition: var(--def-an);
+  text-transform: uppercase;
+}
+
+.btn:focus, 
+.btn:hover {
+  border: 4px solid transparent;
+  background-color:var(--acc-dark);
+  color: var(--main-bright);
+}
+
+.txt-wrap {
+  padding: 0;
+  max-height: 20em;
+  overflow: hidden;
+  transition:  var(--def-an);
+}
+
+.is-closed .txt-wrap {
+  max-height: 0;
+  transition: var(--def-an);
+}
+
+.txt {
+  padding: 20px;
+}

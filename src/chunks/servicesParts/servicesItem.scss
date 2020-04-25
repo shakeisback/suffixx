@@ -1,0 +1,38 @@
+.item {
+  margin: 15px;
+  padding: 35px;
+  width: calc(100% / 3 - 30px);
+  display: flex;
+  flex-direction: column;
+}
+
+.ico-box {
+  width: 70px;
+  height: 70px;
+   position: relative;
+}
+
+.ico {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  margin:0 20px;
+}
+
+.title {
+font-family: var(--ff);
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+margin-top: 20px;
+}
+
+.info {
+  font-family: var(--ff);
+font-style: normal;
+font-weight: normal;
+font-size: 16.2px;
+line-height: 163.35%;
+margin-top: 25px;
+}

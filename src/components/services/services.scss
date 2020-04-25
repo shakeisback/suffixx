@@ -1,0 +1,14 @@
+.container{
+ max-width:  var(--gl--cont);
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+.services{
+  margin-top: 100px;
+  
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}

@@ -1,0 +1,17 @@
+.blog{
+  margin-top: 60px;
+}
+.container{
+  max-width:  var(--gl--cont);
+   margin: 0 auto;
+   padding: 0 20px;
+ }
+ .title{
+  font-family: var(--ff);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+ }

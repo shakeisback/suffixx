@@ -1,0 +1,21 @@
+.footer{
+  margin-top: 90px;
+}
+.footer-wrap {
+  background: var(--main-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding: 55px;
+}
+.text-wrap {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--main-bright);
+  margin-bottom: 25px;
+}

@@ -1,0 +1,59 @@
+.clients{
+  margin-top: 100px;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.img-box{
+  width: 60%;
+  position: relative;
+}
+.img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.overlay{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:var(--cli-ovrl); 
+  opacity: 0.5;
+}
+.our-clients{
+width: 40%;
+height: 650px;
+background-color: var(--cli-bg);
+position: relative;
+
+
+}
+.clients-wrapper{
+width: 500px;
+position: absolute;
+left: 0;
+top: 0;
+margin-left: -100px;
+margin-top: 100px;
+z-index: 100;
+}
+.title{
+  font-family: var(--ff);  
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 207.9%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--cli);
+ margin-bottom: 100px;
+ margin-left: 50px;
+}

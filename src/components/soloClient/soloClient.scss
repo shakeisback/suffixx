@@ -1,0 +1,47 @@
+.client {
+  min-height: calc(100vh - 280px);
+}
+.container{
+  max-width:  var(--gl--cont);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.client-header {
+  background-color: var(--main-dark);
+}
+
+.client-content {
+  padding: 50px 0 50px 0;
+}
+
+.logo-wrap {
+  padding: 120px 0 130px 0;
+  max-width: 600px;
+}
+
+.logo {
+  margin-bottom: 50px;
+  display: block;
+  width: 100%;
+}
+
+.sub-title {
+  font-family: var(--ff);
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+color: var(--main-bright) ;
+}
+
+
+
+.content {
+  font-family: var(--ff);
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 163.35%;
+color: var(--main-dark);
+  margin-bottom: 50px;
+}

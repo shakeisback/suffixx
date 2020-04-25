@@ -1,0 +1,25 @@
+.btn-sub {
+  min-height: 30px;
+  min-width: 200px;
+  color: var(--main-bright);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--ff);
+  padding: 10px 45px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px; 
+  background: none;
+  border: 1px solid var(--main-bright);
+}
+.btn-wrap{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn-sub:hover{
+  background-color:var( --main-bright);
+  color: var(--main-dark);
+  border: 1px solid var(--main-bright);
+  transition:  var(--def-an);
+}

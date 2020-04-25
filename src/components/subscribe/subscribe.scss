@@ -1,0 +1,31 @@
+.subribe{
+  display: flex;
+  background: var(--main-dark);
+  color: var(--main-bright);
+  margin-top: 70px;
+}
+.part{
+  width: 50%;
+}
+.image-box{
+  position: relative;
+  
+}
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-box{
+  padding: 120px ;
+}
+.title{
+font-family: var(--ff);  
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 51px;
+}
